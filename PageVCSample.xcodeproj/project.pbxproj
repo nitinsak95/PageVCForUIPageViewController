@@ -12,6 +12,12 @@
 		A4017E0D209D924300D69011 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4017E0B209D924300D69011 /* Main.storyboard */; };
 		A4017E0F209D924300D69011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4017E0E209D924300D69011 /* Assets.xcassets */; };
 		A4017E12209D924300D69011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4017E10209D924300D69011 /* LaunchScreen.storyboard */; };
+		A4017E1C209D94C400D69011 /* PgeMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4017E1B209D94C400D69011 /* PgeMainViewController.swift */; };
+		A4017E1E209D99A600D69011 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4017E1D209D99A600D69011 /* FirstVC.swift */; };
+		A43D470820A0785500CB53E3 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43D470720A0785500CB53E3 /* SecondVC.swift */; };
+		A43D470A20A0786400CB53E3 /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43D470920A0786400CB53E3 /* ThirdVC.swift */; };
+		A43D470C20A0786F00CB53E3 /* FourthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43D470B20A0786F00CB53E3 /* FourthVC.swift */; };
+		A46C375620A97D3400AE3EED /* NewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46C375520A97D3400AE3EED /* NewVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		A4017E0E209D924300D69011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4017E11209D924300D69011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4017E13209D924300D69011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4017E1B209D94C400D69011 /* PgeMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PgeMainViewController.swift; sourceTree = "<group>"; };
+		A4017E1D209D99A600D69011 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		A43D470720A0785500CB53E3 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		A43D470920A0786400CB53E3 /* ThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdVC.swift; sourceTree = "<group>"; };
+		A43D470B20A0786F00CB53E3 /* FourthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthVC.swift; sourceTree = "<group>"; };
+		A46C375520A97D3400AE3EED /* NewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				A4017E0E209D924300D69011 /* Assets.xcassets */,
 				A4017E10209D924300D69011 /* LaunchScreen.storyboard */,
 				A4017E13209D924300D69011 /* Info.plist */,
+				A4017E1B209D94C400D69011 /* PgeMainViewController.swift */,
+				A4017E1D209D99A600D69011 /* FirstVC.swift */,
+				A43D470720A0785500CB53E3 /* SecondVC.swift */,
+				A43D470920A0786400CB53E3 /* ThirdVC.swift */,
+				A43D470B20A0786F00CB53E3 /* FourthVC.swift */,
+				A46C375520A97D3400AE3EED /* NewVC.swift */,
 			);
 			path = PageVCSample;
 			sourceTree = "<group>";
@@ -136,7 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43D470A20A0786400CB53E3 /* ThirdVC.swift in Sources */,
+				A46C375620A97D3400AE3EED /* NewVC.swift in Sources */,
 				A4017E0A209D924300D69011 /* ViewController.swift in Sources */,
+				A43D470820A0785500CB53E3 /* SecondVC.swift in Sources */,
+				A4017E1E209D99A600D69011 /* FirstVC.swift in Sources */,
+				A4017E1C209D94C400D69011 /* PgeMainViewController.swift in Sources */,
+				A43D470C20A0786F00CB53E3 /* FourthVC.swift in Sources */,
 				A4017E08209D924300D69011 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
